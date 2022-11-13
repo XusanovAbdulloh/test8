@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=DM+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(25, 24, 24);
+    font-family:  'DM Sans', sans-serif;
+}
+.navbar{
+    width: 1440px;
+    height: 119px;
+    background-color: black;
+    color: white;
+    
+}
+.nav-img{
+   margin-top: 43px;
+   margin-left: 60px;
+   display: inline-block;
+}
+.navbar__ul{
+ display: inline-block;
+ margin-left: 670px;
+}
+.navbar__li{
+   margin-left: 30px;
+   display: inline-block;
+}
+.wraper{
+    width: 1440px;
+    height: 913px;
+    background-color: rgb(27, 23, 23);
+}
+.div{
+    width: 1300px;
+    height: 545px;
+    margin-top: 80px;
+    margin-left: 75px;
+    background-color: black;
+    display: flex;
+    border-radius: 32px;
+}
+.div__img{
+    width: auto;
+    height: 52px;
+    display: block;
+    color: white;
+    margin-top: 48px;
+    margin-left: 70px;
+}
+.div__form{
+    width: 1300px;
+    height: 387px;
+    background-color: black;
+    border-radius: 32px;
+    margin-left: 70px;
+}
+.input{
+    width: 522px;
+    height: 82px;
+    background-color: #191919;
+    border: 1px solid #191919;
+    margin-left: 300px;
+    border-radius: 6px;
+}
+.input ::placeholder{
+    font-size: 24px;
+    color: white;
+    
+}
+.input ::placeholder:hover{
+    color: blue;
+}
+.coment{
+    width: 1440px;
+    display: flex;  
+    justify-content: space-evenly;
+}
+.coment2{
+    width: 1440px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.div__coment{
+      
+    width: 423px;
+    height: 321px;
+    border-radius: 12px;
+    background-color: black;
+}
+
+.footer{
+    width: 1440px;
+    height: auto;
+    margin-top: 110px; 
+    display: flex;
+}
+.footer__wraper{
+    margin-left: 71px;
+   
+}
+.footer__list{
+
+    display: flex;
+    
+    margin-right:300px ;
+    margin-left: 350px;
+    margin-bottom: 140px;
+    
+}
+.ul1,.ul2{
+    list-style: none;
+    font-size:18px ;
+    color: white;
+    margin: 30px;
+    margin-bottom: 20px;
+
+}
+.footer__image{
+    display: flex;
+    margin-right: 150px;
+}
